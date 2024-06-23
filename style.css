@@ -104,4 +104,80 @@ body{
     display: none;
 }
 
+@media only screen and (max-width: 1200px) {
+    /* Tablet and below */
+    .card {
+        width: 95%;
+        padding: 30px 20px;
+    }
+
+    .search input {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Phone and below */
+    .card {
+        width: 100%;
+        padding: 20px 10px;
+        margin: 20px auto;
+    }
+
+    .search input {
+        height: 40px;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .search button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .weather-icon {
+        width: 130px;
+    }
+
+    .weather h1 {
+        font-size: 40px;
+    }
+
+    .weather h2 {
+        font-size: 25px;
+    }
+
+    .details {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .col {
+        margin-bottom: 15px;
+    }
+}
+
 /*API Key : b8bd635830262b09220172898de88d1a */
